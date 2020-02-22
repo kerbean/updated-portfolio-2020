@@ -1,0 +1,54 @@
+html{
+    margin:0;
+    height: 100%;
+    width:100%;
+}
+
+body{
+    background-image: url('https://wallpaperaccess.com/full/84248.png');
+    background-size: cover;
+    background-position:  center;
+    background-attachment: fixed;
+    height: 100%;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    
+    margin:auto;
+}
+
+.linebar{
+    max-width:auto;
+    margin:auto;
+}
+
+.home{
+    padding-top:30px;
+    
+    min-height: 100%;
+}
+
+.infos{
+    padding-top: 30px;
+}
+
+.dp{
+    border-radius: 50%;
+    max-height: 200px;
+    min-height: 100px;
+}
+
+.aboutme{
+    text-align: justify;
+    max-width: 1500px;
+}
+
+button{
+    width: 200px;
+}
