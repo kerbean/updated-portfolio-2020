@@ -24,13 +24,12 @@ body{
 }
 
 .linebar{
-    max-width:auto;
+    max-width:600px;
     margin:auto;
 }
 
 .home{
     padding-top:30px;
-    
     min-height: 100%;
 }
 
@@ -41,7 +40,7 @@ body{
 .dp{
     border-radius: 50%;
     max-height: 200px;
-    min-height: 100px;
+    min-height: 50px;
 }
 
 .aboutme{
@@ -51,4 +50,32 @@ body{
 
 button{
     width: 200px;
+    min-width: 50px;
+}
+
+.port-proj img{
+    width: 100%;
+    height: 100%;
+}
+
+.port-div{
+    border-color:black;
+    border-width: 20px;
+}
+
+input{
+    width: 70%;
+    max-width: 100% !important;
+}
+
+.contact-div{
+    max-width: 800px !important;
+}
+
+form{
+    max-width: 800px !important;
+}
+
+.soc-sites{
+    width:50px;
 }
